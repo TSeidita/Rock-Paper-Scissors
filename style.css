@@ -1,0 +1,56 @@
+body{
+    height: 100vh;;
+    background: rgb(251,227,126);
+background: linear-gradient(180deg, rgba(251,227,126,1) 0%, rgba(224,151,109,1) 33%, rgba(25,28,37,1) 100%);
+}
+img{
+    max-width: 25%;
+    border-radius: 50%;
+    margin: 15px;
+    box-shadow: rgba(148, 147, 147, 0.61) 0px 22px 70px 4px;
+}
+/* section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+} */
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    font-size: 2em;
+}
+h3{
+    font-size: 1.5em;
+}
+p{
+    font-size: 1.25em;
+}
+#options{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#rockh1{
+    font-family: 'Black Ops One', cursive;
+    font-size: 3em;
+}
+#paperh1{
+    font-family: 'Dokdo', cursive;
+    font-size: 4em;
+}
+#scissorsh1{
+    font-family: 'Zen Dots', cursive;
+    font-size: 2.5em;
+}
+#scores{
+    min-width: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.gentext{
+    font-family: 'Mate SC', serif;
+}
